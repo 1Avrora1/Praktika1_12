@@ -14,6 +14,7 @@ public class DZ4 {
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Практическое задание - 1.12, Студент - Стрыгин Никита Владиславович, Группа - РИБО-03-22, Вариант - 1");
+        System.out.println("Перед выполнением работы убедитесь, что программа запущена от имени администратора");
         Car car = new Car();
         car.fillData();
         SaverRunnable sr = new SaverRunnable(car, "C:\\car_data.ser"); 
