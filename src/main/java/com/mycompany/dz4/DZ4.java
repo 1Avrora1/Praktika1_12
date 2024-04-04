@@ -16,8 +16,8 @@ public class DZ4 {
         System.out.println("Практическое задание - 1.12, Студент - Стрыгин Никита Владиславович, Группа - РИБО-03-22, Вариант - 1");
         Car car = new Car();
         car.fillData();
-        SaverRunnable sr = new SaverRunnable(car, "F:\\car_data.ser"); 
-        LoaderRunnable lr = new LoaderRunnable("F:\\car_data.ser");
+        SaverRunnable sr = new SaverRunnable(car, "C:\\car_data.ser"); 
+        LoaderRunnable lr = new LoaderRunnable("C:\\car_data.ser");
         Thread thsr = new Thread(sr);
         thsr.start();
         thsr.join();
